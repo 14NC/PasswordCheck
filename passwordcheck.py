@@ -303,4 +303,7 @@ class PasswordCheck:
             self.bothVar.set(1)
     
 if __name__ == "__main__":
-    pass_check = PasswordCheck()   
+    pass_check = PasswordCheck()
+
+    # Added to allow tkinter window to remain open when the python file is run directly/when run packaged as an exe
+    input("Hit enter or close this window when finished ...")
